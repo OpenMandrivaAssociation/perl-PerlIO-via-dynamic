@@ -1,9 +1,8 @@
-
 %define realname	PerlIO-via-dynamic
 
 Name:		perl-%{realname}
 Version:        0.12
-Release: %mkrel 1
+Release: %mkrel 2
 License:	GPL or Artistic
 Group:		Development/Perl
 Summary:        Perl module that helps creating dynamic PerlIO layers
@@ -24,6 +23,7 @@ It is useful when the behavior or the layer depends on variables.
 %{__perl} Makefile.PL INSTALLDIRS=vendor
 %make
 
+%check
 make test
 
 %install
