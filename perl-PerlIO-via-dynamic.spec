@@ -2,7 +2,7 @@
 
 Name:		perl-%{realname}
 Version:        0.12
-Release: %mkrel 2
+Release: %mkrel 3
 License:	GPL or Artistic
 Group:		Development/Perl
 Summary:        Perl module that helps creating dynamic PerlIO layers
