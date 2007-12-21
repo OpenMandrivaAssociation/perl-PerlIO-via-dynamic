@@ -8,6 +8,7 @@ Group:		Development/Perl
 Summary:        Perl module that helps creating dynamic PerlIO layers
 Source0:        http://search.cpan.org/CPAN/authors/id/C/CL/CLKAO/%{realname}-%{version}.tar.gz
 Url:		http://www.cpan.org
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	perl-devel
 BuildArch:      noarch
 
