@@ -1,7 +1,7 @@
 %define realname	PerlIO-via-dynamic
 
 Name:		perl-%{realname}
-Version:        0.12
+Version:        0.13
 Release: %mkrel 3
 License:	GPL or Artistic
 Group:		Development/Perl
@@ -10,6 +10,7 @@ Source0:        http://search.cpan.org/CPAN/authors/id/C/CL/CLKAO/%{realname}-%{
 Url:		http://www.cpan.org
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	perl-devel
+BuildRequires:  perl(Internals)
 BuildArch:      noarch
 
 %description
